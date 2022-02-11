@@ -1,0 +1,29 @@
+:root {
+  --dasar: #ffc600;
+  --penspasian: 10px;
+  --blur: 10px;
+}
+body {
+  text-align: center;
+  background: #193549;
+  color: wheat;
+  font-weight: 100;
+  font-size: 50px;
+}
+img {
+  padding: var(--penspasian);
+  background: var(--dasar);
+  filter: blur(var(--blur));
+}
+.h1 {
+  color: #ffc600;
+}
+h2 {
+  font-size: 1.5em;
+}
+.container {
+  margin-bottom: 50px;
+}
+input {
+  width: 100px;
+}
